@@ -8,6 +8,7 @@ namespace Repaso3
 {
     class Dato
     {
+        string dpi;
         string nombre;
         int numero_de_Casa;
         float cuota_de_Mantenimiento;
@@ -15,5 +16,6 @@ namespace Repaso3
         public string Nombre { get => nombre; set => nombre = value; }
         public int Numero_de_Casa { get => numero_de_Casa; set => numero_de_Casa = value; }
         public float Cuota_de_Mantenimiento { get => cuota_de_Mantenimiento; set => cuota_de_Mantenimiento = value; }
+        public string Dpi { get => dpi; set => dpi = value; }
     }
 }
